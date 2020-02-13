@@ -15,12 +15,12 @@ from __future__ import absolute_import
 import unittest
 
 import showpass_connect
-from models.inventory_partner_based_ticket_type_variant import InventoryPartnerBasedTicketTypeVariant  # noqa: E501
+from models.inventory_partner_based_organization import InventoryPartnerBasedOrganization  # noqa: E501
 from showpass_connect.rest import ApiException
 
 
-class TestInventoryPartnerBasedTicketTypeVariant(unittest.TestCase):
-    """InventoryPartnerBasedTicketTypeVariant unit test stubs"""
+class TestInventoryPartnerBasedOrganization(unittest.TestCase):
+    """InventoryPartnerBasedOrganization unit test stubs"""
 
     def setUp(self):
         pass
@@ -28,10 +28,10 @@ class TestInventoryPartnerBasedTicketTypeVariant(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testInventoryPartnerBasedTicketTypeVariant(self):
-        """Test InventoryPartnerBasedTicketTypeVariant"""
+    def testInventoryPartnerBasedOrganization(self):
+        """Test InventoryPartnerBasedOrganization"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = showpass_connect.models.inventory_partner_based_ticket_type_variant.InventoryPartnerBasedTicketTypeVariant()  # noqa: E501
+        # model = showpass_connect.models.inventory_partner_based_organization.InventoryPartnerBasedOrganization()  # noqa: E501
         pass
 
 
