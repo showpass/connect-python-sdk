@@ -241,7 +241,7 @@ class InventoryPartnerBasedExpandedTicketTypeVariant(object):
     def description(self):
         """Gets the description of this InventoryPartnerBasedExpandedTicketTypeVariant.  # noqa: E501
 
-        The Variant's description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. Supported HTML tags: Heading tags: <h1>, <h2>, <h3>, <h4>, <h5>, <h6> Paragraph tag: <p> List tags: <ul>, <ol>, <li> Division tag: <div> Phrase tags: <br>, <strong>, <em>  All other tags are unsupported.  # noqa: E501
+        The Variant's description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. This will overwrite any description specified from it's Ticket Type. Supported HTML tags: Heading tags: h1, h2, h3, h4, h5, h6 Paragraph tag: p List tags: ul, ol, li Division tag: div Phrase tags: br, strong, em  All other tags are unsupported.  # noqa: E501
 
         :return: The description of this InventoryPartnerBasedExpandedTicketTypeVariant.  # noqa: E501
         :rtype: str
@@ -252,7 +252,7 @@ class InventoryPartnerBasedExpandedTicketTypeVariant(object):
     def description(self, description):
         """Sets the description of this InventoryPartnerBasedExpandedTicketTypeVariant.
 
-        The Variant's description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. Supported HTML tags: Heading tags: <h1>, <h2>, <h3>, <h4>, <h5>, <h6> Paragraph tag: <p> List tags: <ul>, <ol>, <li> Division tag: <div> Phrase tags: <br>, <strong>, <em>  All other tags are unsupported.  # noqa: E501
+        The Variant's description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. This will overwrite any description specified from it's Ticket Type. Supported HTML tags: Heading tags: h1, h2, h3, h4, h5, h6 Paragraph tag: p List tags: ul, ol, li Division tag: div Phrase tags: br, strong, em  All other tags are unsupported.  # noqa: E501
 
         :param description: The description of this InventoryPartnerBasedExpandedTicketTypeVariant.  # noqa: E501
         :type: str

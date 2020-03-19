@@ -61,14 +61,15 @@ class EventLocation(object):
         self._geographical_region = None
         self._postal_code = None
         self.discriminator = None
-        self.business_name = business_name
+        if business_name is not None:
+            self.business_name = business_name
         if unit_number is not None:
             self.unit_number = unit_number
-        self.street_number = street_number
+        if street_number is not None:
+            self.street_number = street_number
         self.street_name = street_name
         self.city = city
-        if country is not None:
-            self.country = country
+        self.country = country
         self.geographical_region = geographical_region
         self.postal_code = postal_code
 
@@ -92,8 +93,6 @@ class EventLocation(object):
         :param business_name: The business_name of this EventLocation.  # noqa: E501
         :type: str
         """
-        if business_name is None:
-            raise ValueError("Invalid value for `business_name`, must not be `None`")  # noqa: E501
 
         self._business_name = business_name
 
@@ -138,8 +137,6 @@ class EventLocation(object):
         :param street_number: The street_number of this EventLocation.  # noqa: E501
         :type: str
         """
-        if street_number is None:
-            raise ValueError("Invalid value for `street_number`, must not be `None`")  # noqa: E501
 
         self._street_number = street_number
 
@@ -207,6 +204,8 @@ class EventLocation(object):
         :param country: The country of this EventLocation.  # noqa: E501
         :type: str
         """
+        if country is None:
+            raise ValueError("Invalid value for `country`, must not be `None`")  # noqa: E501
 
         self._country = country
 

@@ -1,6 +1,6 @@
 # showpass_connect.VariantsApi
 
-All URIs are relative to *http://34.102.246.102/api/v1/supplier*
+All URIs are relative to *https://connect.showpass.com/api/v1/supplier*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

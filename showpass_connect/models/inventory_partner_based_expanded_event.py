@@ -187,7 +187,7 @@ class InventoryPartnerBasedExpandedEvent(object):
     def description(self):
         """Gets the description of this InventoryPartnerBasedExpandedEvent.  # noqa: E501
 
-        The event's description, meant to be displayed to the customer. Use this field to optionally store a long form description of the event. Supported HTML tags:  Heading tags: <h1>, <h2>, <h3>, <h4>, <h5>, <h6> Paragraph tag: <p> List tags: <ul>, <ol>, <li> Division tag: <div> Phrase tags: <br>, <strong>, <em>  All other tags are unsupported.  # noqa: E501
+        The event's description, meant to be displayed to the customer. Use this field to optionally store a long form description of the event. Supported HTML tags:  Heading tags: h1, h2, h3, h4, h5, h6 Paragraph tag: p List tags: ul, ol, li Division tag: div Phrase tags: br, strong, em All other tags are unsupported.  # noqa: E501
 
         :return: The description of this InventoryPartnerBasedExpandedEvent.  # noqa: E501
         :rtype: str
@@ -198,7 +198,7 @@ class InventoryPartnerBasedExpandedEvent(object):
     def description(self, description):
         """Sets the description of this InventoryPartnerBasedExpandedEvent.
 
-        The event's description, meant to be displayed to the customer. Use this field to optionally store a long form description of the event. Supported HTML tags:  Heading tags: <h1>, <h2>, <h3>, <h4>, <h5>, <h6> Paragraph tag: <p> List tags: <ul>, <ol>, <li> Division tag: <div> Phrase tags: <br>, <strong>, <em>  All other tags are unsupported.  # noqa: E501
+        The event's description, meant to be displayed to the customer. Use this field to optionally store a long form description of the event. Supported HTML tags:  Heading tags: h1, h2, h3, h4, h5, h6 Paragraph tag: p List tags: ul, ol, li Division tag: div Phrase tags: br, strong, em All other tags are unsupported.  # noqa: E501
 
         :param description: The description of this InventoryPartnerBasedExpandedEvent.  # noqa: E501
         :type: str
@@ -423,7 +423,7 @@ class InventoryPartnerBasedExpandedEvent(object):
     def refund_policy(self):
         """Gets the refund_policy of this InventoryPartnerBasedExpandedEvent.  # noqa: E501
 
-        The policy outlining how refunds will be handled for this event. This will be displayed to the ticket buyers. Supported HTML tags: Heading tags: <h1>, <h2>, <h3>, <h4>, <h5>, <h6> Paragraph tag: <p> List tags: <ul>, <ol>, <li> Division tag: <div> Phrase tags: <br>, <strong>, <em>  All other tags are unsupported.  # noqa: E501
+        The policy outlining how refunds will be handled for this event. This will be displayed to the ticket buyers. Supported HTML tags: Heading tags: h1, h2, h3, h4, h5, h6 Paragraph tag: p List tags: ul, ol, li Division tag: div Phrase tags: br, strong, em  All other tags are unsupported.  # noqa: E501
 
         :return: The refund_policy of this InventoryPartnerBasedExpandedEvent.  # noqa: E501
         :rtype: str
@@ -434,7 +434,7 @@ class InventoryPartnerBasedExpandedEvent(object):
     def refund_policy(self, refund_policy):
         """Sets the refund_policy of this InventoryPartnerBasedExpandedEvent.
 
-        The policy outlining how refunds will be handled for this event. This will be displayed to the ticket buyers. Supported HTML tags: Heading tags: <h1>, <h2>, <h3>, <h4>, <h5>, <h6> Paragraph tag: <p> List tags: <ul>, <ol>, <li> Division tag: <div> Phrase tags: <br>, <strong>, <em>  All other tags are unsupported.  # noqa: E501
+        The policy outlining how refunds will be handled for this event. This will be displayed to the ticket buyers. Supported HTML tags: Heading tags: h1, h2, h3, h4, h5, h6 Paragraph tag: p List tags: ul, ol, li Division tag: div Phrase tags: br, strong, em  All other tags are unsupported.  # noqa: E501
 
         :param refund_policy: The refund_policy of this InventoryPartnerBasedExpandedEvent.  # noqa: E501
         :type: str
@@ -446,7 +446,7 @@ class InventoryPartnerBasedExpandedEvent(object):
     def restrictions(self):
         """Gets the restrictions of this InventoryPartnerBasedExpandedEvent.  # noqa: E501
 
-        Restrictions that apply to this event. Using this field is strongly encouraged to provide clear expectations for customers.Examples may be: 'No Children Allowed', '18+ Event', etc. Supported HTML tags: Paragraph tag: <p> List tags: <ul>, <ol>, <li> Phrase tags: <strong>, <em>  All other tags are unsupported.  # noqa: E501
+        Restrictions that apply to this event. Using this field is strongly encouraged to provide clear expectations for customers.Examples may be: 'No Children Allowed', '18+ Event', etc. Supported HTML tags: Paragraph tag: p List tags: ul, ol, li Phrase tags: strong, em All other tags are unsupported.  # noqa: E501
 
         :return: The restrictions of this InventoryPartnerBasedExpandedEvent.  # noqa: E501
         :rtype: str
@@ -457,7 +457,7 @@ class InventoryPartnerBasedExpandedEvent(object):
     def restrictions(self, restrictions):
         """Sets the restrictions of this InventoryPartnerBasedExpandedEvent.
 
-        Restrictions that apply to this event. Using this field is strongly encouraged to provide clear expectations for customers.Examples may be: 'No Children Allowed', '18+ Event', etc. Supported HTML tags: Paragraph tag: <p> List tags: <ul>, <ol>, <li> Phrase tags: <strong>, <em>  All other tags are unsupported.  # noqa: E501
+        Restrictions that apply to this event. Using this field is strongly encouraged to provide clear expectations for customers.Examples may be: 'No Children Allowed', '18+ Event', etc. Supported HTML tags: Paragraph tag: p List tags: ul, ol, li Phrase tags: strong, em All other tags are unsupported.  # noqa: E501
 
         :param restrictions: The restrictions of this InventoryPartnerBasedExpandedEvent.  # noqa: E501
         :type: str

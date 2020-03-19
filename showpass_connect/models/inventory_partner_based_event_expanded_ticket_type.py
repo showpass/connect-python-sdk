@@ -237,7 +237,7 @@ class InventoryPartnerBasedEventExpandedTicketType(object):
     def description(self):
         """Gets the description of this InventoryPartnerBasedEventExpandedTicketType.  # noqa: E501
 
-        The Ticket Type's description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. Supported HTML tags: Heading tags: <h1>, <h2>, <h3>, <h4>, <h5>, <h6> Paragraph tag: <p> List tags: <ul>, <ol>, <li> Division tag: <div> Phrase tags: <br>, <strong>, <em>  All other tags are unsupported.  # noqa: E501
+        The Ticket Type's description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. This will act as a default description for any variants created. Supported HTML tags: Heading tags: h1, h2, h3, h4, h5, h6 Paragraph tag: p List tags: ul, ol, li Division tag: div Phrase tags: br, strong, em  All other tags are unsupported.  # noqa: E501
 
         :return: The description of this InventoryPartnerBasedEventExpandedTicketType.  # noqa: E501
         :rtype: str
@@ -248,7 +248,7 @@ class InventoryPartnerBasedEventExpandedTicketType(object):
     def description(self, description):
         """Sets the description of this InventoryPartnerBasedEventExpandedTicketType.
 
-        The Ticket Type's description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. Supported HTML tags: Heading tags: <h1>, <h2>, <h3>, <h4>, <h5>, <h6> Paragraph tag: <p> List tags: <ul>, <ol>, <li> Division tag: <div> Phrase tags: <br>, <strong>, <em>  All other tags are unsupported.  # noqa: E501
+        The Ticket Type's description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. This will act as a default description for any variants created. Supported HTML tags: Heading tags: h1, h2, h3, h4, h5, h6 Paragraph tag: p List tags: ul, ol, li Division tag: div Phrase tags: br, strong, em  All other tags are unsupported.  # noqa: E501
 
         :param description: The description of this InventoryPartnerBasedEventExpandedTicketType.  # noqa: E501
         :type: str

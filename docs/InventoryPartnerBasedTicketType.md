@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **unit_price_currency** | **str** |  | [optional] 
 **fee_settings** | **object** |  | [optional] 
 **event** | **str** |  | 
-**description** | **str** | The Ticket Type&#x27;s description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. Supported HTML tags: Heading tags: &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt; Paragraph tag: &lt;p&gt; List tags: &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; Division tag: &lt;div&gt; Phrase tags: &lt;br&gt;, &lt;strong&gt;, &lt;em&gt;  All other tags are unsupported. | [optional] 
+**description** | **str** | The Ticket Type&#x27;s description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. This will act as a default description for any variants created. Supported HTML tags: Heading tags: h1, h2, h3, h4, h5, h6 Paragraph tag: p List tags: ul, ol, li Division tag: div Phrase tags: br, strong, em  All other tags are unsupported. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

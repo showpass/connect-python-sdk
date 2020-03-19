@@ -46,7 +46,7 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
     def __init__(self):
         """Constructor"""
         # Default Base url
-        self.host = "http://34.102.246.102/api/v1/supplier"
+        self.host = "https://connect.showpass.com/api/v1/supplier"
         # Temp file folder for downloading files
         self.temp_folder_path = None
 

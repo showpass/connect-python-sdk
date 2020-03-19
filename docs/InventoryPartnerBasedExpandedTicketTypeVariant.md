@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **ends_on** | **datetime** | The UTC date time of when this variant is no longer sellable. Default is the Event&#x27;s end time. | [optional] 
 **minimum_purchase_limit** | **int** | Enforce a minimum number of tickets that must be purchased for this variant. | [optional] 
 **purchase_limit** | **int** | Enforce a maximum number of tickets that can be purchased for this variant. The default value is 10. | [optional] 
-**description** | **str** | The Variant&#x27;s description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. Supported HTML tags: Heading tags: &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt; Paragraph tag: &lt;p&gt; List tags: &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; Division tag: &lt;div&gt; Phrase tags: &lt;br&gt;, &lt;strong&gt;, &lt;em&gt;  All other tags are unsupported. | [optional] 
+**description** | **str** | The Variant&#x27;s description, meant to be displayed to the customer. This field will only be displayed on supported Distribution Partners. This will overwrite any description specified from it&#x27;s Ticket Type. Supported HTML tags: Heading tags: h1, h2, h3, h4, h5, h6 Paragraph tag: p List tags: ul, ol, li Division tag: div Phrase tags: br, strong, em  All other tags are unsupported. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

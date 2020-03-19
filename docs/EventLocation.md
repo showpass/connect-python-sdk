@@ -3,12 +3,12 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**business_name** | **str** | Name of the business or place. | 
+**business_name** | **str** | Name of the business or place. | [optional] 
 **unit_number** | **str** | Apartment or building number. | [optional] 
-**street_number** | **str** |  | 
+**street_number** | **str** |  | [optional] 
 **street_name** | **str** |  | 
 **city** | **str** |  | 
-**country** | **str** |  | [optional] 
+**country** | **str** |  | 
 **geographical_region** | **str** | Province or state of where the event occurs. | 
 **postal_code** | **str** | Postal code or ZIP code of the event location. | 
 
